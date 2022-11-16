@@ -1,11 +1,38 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.idcards li {
+  list-style: none;
 }
+
+.idcards {
+  display: flex;
+}
+
+.creditImg {
+  width: 50px;
+}
+
+.driverCard img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.driverCard {
+  background-color: cornflowerblue;
+  color: white;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
